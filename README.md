@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Rosita's Treats Website
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Collaborators:
+
+Ian Samuel Valdovinos Granados
 
 ## Available Scripts
 
