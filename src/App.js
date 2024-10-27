@@ -1,15 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+// Pages
+import CocinaHome from './pages/kitchen/home';
+import CosinaAbout from './pages/kitchen/about';
+import CosinaCatering from './pages/kitchen/catering';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          This will be Rosita's Treats website
-        </p>
-      </header>
+      <BrowserRouter>
+
+        {/* Pages */}
+        <Routes>
+          {/* Rosita's Kitchen */}
+          <Route path='/kitchen' element={<CocinaHome/>} />
+          <Route path='/kitchen/about' element={<CosinaAbout/>} />
+          <Route path='/kitchen/catering' element={<CosinaCatering/>} />
+
+          {/* Rosita's Market */}
+
+          {/* Rosita's Events */}
+
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
