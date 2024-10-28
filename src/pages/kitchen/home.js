@@ -6,6 +6,7 @@ import styles from './home.module.css';
 // Import components
 import KitchenBanner from '../../components/Kitchen/banner';
 import ColombianCocina from '../../components/Kitchen/colombianCocina';
+import AllYouCanEat from '../../components/Kitchen/allYouCanEat';
 
 function CocinaHome() {
     return ( 
@@ -30,6 +31,7 @@ function CocinaHome() {
             {/* ############################################# */}
             {/* ########## All You Can Eat Section ########## */}
             {/* ############################################# */}
+            <AllYouCanEat />
 
 
             {/* ########################################### */}

@@ -1,0 +1,11 @@
+.allYouCanEatSection {
+    background-color: blue;
+    color: white;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.allYouCanEatSubsection {
+    border: 2px solid red;
+}
