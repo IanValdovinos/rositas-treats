@@ -6,6 +6,12 @@ Collaborators:
 
 Ian Samuel Valdovinos Granados
 
+Website Colors:
+
+Yellow: rgb(228, 203, 67)
+Blue: rgb(18, 49, 140)
+Red: rgb(186, 39, 31)
+
 ## Available Scripts
 
 In the project directory, you can run:
