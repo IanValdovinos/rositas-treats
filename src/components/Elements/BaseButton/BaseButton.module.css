@@ -1,0 +1,42 @@
+.baseButton {
+    color: black;
+    background-color: white;
+    min-width: fit-content;
+    padding: 15px 40px;
+    border-radius: 10000000px;
+    display: inline-block;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all 0.2s ease-out;
+}
+
+.baseButton::before {
+    content: "";
+    position: absolute;
+    background: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+    -webkit-transition: all 0.2s ease-out;
+}
+
+.baseButton:hover {
+    color: black;
+    cursor: pointer;
+    transform: translateY(-0.25rem);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+.baseButton:hover::before {
+    top: 0;
+}
+
+.baseButton p {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 1.2rem;
+}

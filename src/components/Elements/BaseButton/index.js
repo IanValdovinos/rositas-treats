@@ -1,12 +1,10 @@
-import React from 'react';
-
-// Import styles
+import React from "react";
 import styles from './BaseButton.module.css';
 
-function BaseButton() {
+function BaseButton({additionalClassNames, onClick, children}) {
     return ( 
-        <div>
-            Base Button goes here
+        <div className={`${additionalClassNames} ${styles.baseButton}`} onClick={onClick}>
+            <p>{children}</p>
         </div>
      );
 }

@@ -6,11 +6,19 @@ Collaborators:
 
 Ian Samuel Valdovinos Granados
 
-Website Colors:
+## Website Colors
 
-Yellow: rgb(228, 203, 67)
-Blue: rgb(18, 49, 140)
-Red: rgb(186, 39, 31)
+Yellow: rgb(234, 203, 2)
+
+Blue: rgb(3, 50, 147)
+
+Red: rgb(203, 2, 15)
+
+## Z-Indices
+
+Chef's Favorites Marquee: 1
+
+Chef's Favorites Image: 5
 
 ## Available Scripts
 
