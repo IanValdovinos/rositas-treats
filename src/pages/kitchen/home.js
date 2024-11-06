@@ -9,7 +9,7 @@ import ColombianCocina from '../../components/Kitchen/colombianCocina';
 import AllYouCanEat from '../../components/Kitchen/allYouCanEat';
 
 function CocinaHome() {
-    return ( 
+    return (
         <div>
             <h1>Home Page</h1>
 
