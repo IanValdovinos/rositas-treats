@@ -6,6 +6,7 @@ import styles from './home.module.css';
 // Import components
 import KitchenBanner from '../../components/Kitchen/banner';
 import ColombianCocina from '../../components/Kitchen/colombianCocina';
+import ChefsFavorites from '../../components/Kitchen/chefsFavorites';
 import AllYouCanEat from '../../components/Kitchen/allYouCanEat';
 
 function CocinaHome() {
@@ -26,7 +27,7 @@ function CocinaHome() {
             {/* ############################################# */}
             {/* ########## Chef's Favorite Section ########## */}
             {/* ############################################# */}
-
+            <ChefsFavorites />
 
             {/* ############################################# */}
             {/* ########## All You Can Eat Section ########## */}
